@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #8B4513;
+
+}
+
+/*3. Brown/Nude
+Light Nude/Brown: #F5CBA7
+Medium Nude/Brown: #D2B48C
+Dark Brown: #8B4513
+Warm Nude: #C19A6B*/
+
+.nav-logo {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #d4af37;
+    font-size: 1em;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+li:active {
+    color: #d4af37;
+}
+
+li:hover {
+    color: #d4af37;
+}
+
+.nav-cart {
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.nav-cart button {
+    padding: 0.6em 1.2em;
+    border-radius: 1em;
+    border: 2px solid #d4af37;
+    background: black;
+    color: #d4af37;
+}
